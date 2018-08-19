@@ -551,7 +551,7 @@ void game::chooseMap()
 	loadBmp(mapViewer[2], "rs/img/map/classic.bmp");
 	loadBmp(mapViewer[3], "rs/img/map/desert.bmp");
 	loadBmp(mapViewer[4], "rs/img/map/forest.bmp");
-	loadBmp(mapViewer[5], "rs/img/map/tunel.bmp");
+	loadBmp(mapViewer[5], "rs/img/map/tunnel.bmp");
 	loadBmp(mapViewer[6], "rs/img/map/winter.bmp");
 	loadBmp(mapViewer[7], "rs/img/map/farm.bmp");
 
@@ -618,7 +618,7 @@ void game::chooseMap()
 				case 2: strcpy_s(typeMap, 10, "classic"); return;
 				case 3: strcpy_s(typeMap, 10, "desert"); return;
 				case 4: strcpy_s(typeMap, 10, "forest"); return;
-				case 5: strcpy_s(typeMap, 10, "tunel"); return;
+				case 5: strcpy_s(typeMap, 10, "tunnel"); return;
 				case 6: strcpy_s(typeMap, 10, "winter"); return;
 				case 7: strcpy_s(typeMap, 10, "farm"); return;
 				case 8:
