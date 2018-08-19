@@ -622,7 +622,7 @@ void game::chooseMap()
 				case 6: strcpy_s(typeMap, 10, "winter"); return;
 				case 7: strcpy_s(typeMap, 10, "farm"); return;
 				case 8:
-					choose = rand() % 8;
+					choose = rand() % 8; 
 				}
 			}
 		}
